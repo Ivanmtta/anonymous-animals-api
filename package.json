@@ -1,0 +1,16 @@
+{
+  "name": "anonymous-animals-api",
+  "version": "1.0.0",
+  "description": "Generate consistent avatars of anonymous animals for your web applications.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Ivan Mota",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

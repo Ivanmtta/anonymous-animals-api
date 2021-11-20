@@ -9,17 +9,17 @@ The anonymous animals API provides two different services, get an animal avatar 
 
 ## Fetching Animal Avatar With Username
 Remember that the API will always return the same avatar given the same username!
-* Endpoint: `http://anonymous-animals.herokuapp.com/avatar/:username`
+* Endpoint: `https://anonymous-animals.azurewebsites.net/avatar/:username`
 
 ## Fetching Animal Avatar With Animal Name
 Refer to the list of animals to know that are all the possible values for the `animalname` variable.
-* Endpoint: `http://anonymous-animals.herokuapp.com/animal/:animalname`
+* Endpoint: `https://anonymous-animals.azurewebsites.net/animal/:animalname`
 
 ## Example Usage
 ```html
 <img
     alt="John's Animal Avatar"
-    src="http://anonymous-animals.herokuapp.com/avatar/John"
+    src="https://anonymous-animals.azurewebsites.net/avatar/John"
 ></img>
 ```
 ## List of Animals
